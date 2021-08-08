@@ -12,7 +12,7 @@ networking: bridged, then select your wifi adapter under name. Disable the secon
 * configuration less than these specs will fail
 * ensure that there aren't too many desktop apps open/running on your laptop. Those will compete for resources with your vm
 * once the system boots, install 'network-scripts' package. run 'ifconfig' and 'route -n' and save the output for reference
-* change the hostname of your server to 'yourfirstname'
+* change the hostname of your server to 'yourfirstname'. check that you can ping www.google.com
 * edit /root/.bashrc, add:
 
 ```
