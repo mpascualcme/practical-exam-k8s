@@ -66,3 +66,6 @@ spec:
 kubeadm reset --force; rm -rf /etc/cni/net.d/
 ```
 
+* modify the nginx deployment to spin up 3 copies of the application
+* once everything is done, shut down your virtual machine, export, and upload to google drive with the file named: 'yourname.k8s.ova'.
+
